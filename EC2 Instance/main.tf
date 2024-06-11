@@ -6,5 +6,4 @@ resource "aws_vpc" "my_vpc" {
   tags = {
     name =  var.name                         #"vpc"
   }
-  
 }
